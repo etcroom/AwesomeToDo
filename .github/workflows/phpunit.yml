@@ -22,7 +22,7 @@ jobs:
           php_version: '8.3'
           args: '--no-progress --prefer-dist'
       # PHPUnitの実行
-      - uses: php-actions/phpunit@v3
+      - uses: php-actions/phpunit@v4
         with:
-          php_version: '8.3'
+          php_version: '8.4'
           test_suffix: './tests/TodoTest.php'
